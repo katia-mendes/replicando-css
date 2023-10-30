@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(237, 219, 255);
+}
+
+h1, h2{
+    padding: 1%;
+    font-size: 20px;
+}
+/*Index*/
+/*Menu*/
+
+.flex-container{
+display: flex;
+justify-content: center;
+
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:blueviolet ;
+    border-radius: 0 0 10px 10px;
+}
+
+nav .logo{
+    width: 35%;
+    font-size: 20pt;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+    justify-content: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.icone{
+    width: 30%;
+}
+
+ul li a{
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li a:hover{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/*Main*/
+main{
+    max-width: 80%;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#sobre{
+    display: flex;
+    padding: 1.5%;
+    border-radius: 10px;
+    background-color: rgb(255, 164, 241);
+    align-items: center;
+}
+
+p{
+    font-size: 10pt;
+}
+
+.foto{
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.video{
+    width: 50%;
+    height: 150%;
+    
+}
+
+.video{
+    width: 50%; 
+    height: 150%;
+}
+
+/*Rodape*/
+footer{
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: blueviolet;
+    border-radius: 10px 10px 0 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-flow: wrap;
+    display:flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.icons{
+    width: 3%;
+}
+
+footer a{
+    text-decoration: none;
+}
+/*Contato*/
+
+/*Menu*/
+
+/*Main*/
+
+/*Rodape*/
